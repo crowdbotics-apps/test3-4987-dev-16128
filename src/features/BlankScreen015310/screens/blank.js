@@ -26,12 +26,7 @@ export default class Blank extends React.Component {
   state = {}
 
   render = () => (
-    <ImageBackground
-      source={{
-        uri:
-          "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/b5_A38hQtR.jpg"
-      }}
-    >
+    <ImageBackground>
       <Image source={{ uri: "https://via.placeholder.com/150" }} />
     </ImageBackground>
   )
